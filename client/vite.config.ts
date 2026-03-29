@@ -13,7 +13,7 @@ export default defineConfig(() => ({
     },
     proxy: {
       "/api": {
-        target: "http://localhost:3001",
+        target: "https://task-management-project-4kw7.onrender.com",
         changeOrigin: true,
       },
     },
